@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    width: 100%;
+    background-color: #212121;
+    font-family: 'Inter', sans-serif;
+}
+
+.foot .main {
+    display: flex;
+
+}
+
+.foot .first-div {
+    padding: 40px 0px;
+    width: 50%;
+}
+
+.foot .first-div .sec-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.foot .first-div .sec-div ul {
+    list-style: none;
+}
+
+.foot .first-div ul h5 {
+    color: #bbbaba;
+    line-height: 2.3;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.foot .first-div ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 11.5px;
+    font-weight: bold;
+}
+
+.foot .second-div {
+    padding: 40px 0px;
+    right: 1%;
+    position: absolute;
+}
+
+.foot .second-div .sec1-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-left: #a3a3a3 1px solid;
+}
+
+.foot .second-div .sec1-div ul {
+    list-style: none;
+    padding-left: 40px;
+}
+
+.foot .second-div ul h5 {
+    color: #bbbaba;
+    line-height: 2.3;
+    font-size: 10px;
+}
+
+.foot .second-div ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.3;
+    font-size: 12px;
+}
+
+.foot2 {
+    width: 100%;
+    border-top: 1px solid #a3a3a3;
+}
+
+.foot2 .div-1 {
+    padding: 2% 0;
+    display: flex;
+}
+
+.foot2 .div-1 ul {
+    width: 70%;
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+    justify-content: space-evenly;
+}
+
+.foot2 .div-1 ul li a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+
+}
+
+.foot2 .div-1 img {
+    position: absolute;
+    right: 4%;
+}
